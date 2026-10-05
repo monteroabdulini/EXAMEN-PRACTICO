@@ -1,0 +1,14 @@
+TiendaApp (Raíz)
+ ├── Scaffold 
+ │    ├── TopAppBar 
+ │    └── NavigationBar (Barra inferior: Catálogo | Categorías & Pedidos)
+ └── Contenido 
+      ├── CatalogoScreen 
+      │    ├── Buscador y Filtros
+      │    └── Lista de Productos (LazyColumn)
+      │
+      └── CategoriasPedidosScreen 
+           ├── Selector de Pestañas (TabRow)
+           └── Lista de Elementos (Categorías o Pedidos)
+
+ └── CartDialog (Diálogo flotante / Emergente del Carrito)
